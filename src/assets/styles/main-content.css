@@ -15,7 +15,7 @@
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: var(--bg-color);
 }
 
 .header_navigation .navigation {
@@ -52,7 +52,7 @@
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #242424;
+    background-color: var(--bg-lighter-color);
     border-radius: 500px;
     border: 1px solid transparent;
 }
@@ -100,7 +100,7 @@
     padding-top: 16px;
     margin: 10px;
     border-radius: 10px;
-    background-color: #121212;
+    background-color: var(--bg-color);
 }
 
 .playlist {

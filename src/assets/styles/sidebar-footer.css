@@ -15,13 +15,13 @@ body {
 }
 
 .sidebar_navigation {
-    background-color: #121212;
+    background-color: var(--bg-color);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar_navigation .logo {
-    background: #121212;
+    background: var(--bg-color);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -50,7 +50,7 @@ body {
 }
 
 .library {
-    background-color: #121212;
+    background-color: var(--bg-color);
     border-radius: 8px;
     /* Técnica que permite alterar o posicionamento
      de objetos de forma mais fácil ex: justify content*/
@@ -104,7 +104,7 @@ body {
     justify-content: space-between;
     /*Tamanho do space between?*/
     gap: 20px;
-    background-color: #242424;
+    background-color: var(--bg-lighter-color);
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
@@ -184,7 +184,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #5e376d, #c8a2c8);
+    background: linear-gradient(to right, #2c4c3b, #006f75);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
