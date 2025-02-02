@@ -5,37 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify do Crespin</title>
 
-    <link href="reset.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="./src/assets/styles/reset.css" rel="stylesheet">
+    <link href="./src/assets/styles/vars.css" rel="stylesheet">
+    <link href="./src/assets/styles/sidebar-footer.css" rel="stylesheet">
+    <link href="./src/assets/styles/main-content.css" rel="stylesheet">
 
     <!-- Links para trazer os ícones via CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
 </head>
+
 <body>
 <!--Peso semântico é a tag dizer exatamente sua função-->
     <div class="sidebar">
         <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="logo do Spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="logo do Spotify">
                 </a>
             </div>
                 <!--ul>li*2-->
-                    <ul>
-                        <li>
-                            <a href="">
-                                <span class="fa fa-home"></span>
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span class="fa fa-search"></span>
-                                <span>Buscar</span>
-                            </a>
-                        </li>
-                    </ul>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
 
         <div class="library">
@@ -69,11 +72,47 @@
                 </button>
             </div>
         </div>
-
     </div>
 
+    <main>
+        <div class="main-container">
+            <nav class="header_navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+
+                <div class="header_search">
+                    <!-- Não está sendo utilizada para compor a informação da tela / não tem valor de imagem (conteúdo), alt vazio -->
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                </div>
+
+                <div class="header_login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+
+            <div class="playlist-container">
+                <div id="result-playlists">
+                    <div class="playlist">
+                        <h1 id="greeting">Olá, seja bem-vindo(a)!</h1>
+                        <h2 class="greeting subtitle">Navegar por todas as seções</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
     <footer class="disclaimer-premium">
-        <div cllass="text">
+        <div class="text">
             <p class="disclaimer-premium_title">Testar o Premium de graça</p>
             <p class="disclaimer-premium_subtitle">Inscreva-se para curtir música ilimitada e podcasts sem anúncios. 
                 Não precisa de cartão de crédito</p>
@@ -82,5 +121,6 @@
             <button type="button">Inscreva-se grátis</button>
         </div>
     </footer>
+
 </body>
 </html>
