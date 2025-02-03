@@ -76,6 +76,10 @@
     outline: none;
 }
 
+.header_search input::placeholder {
+  color: #b3b3b3;
+}
+
 .header_login .subscribe {
     color: #a7a7a7;
     font-size: 16px;
@@ -205,6 +209,15 @@
   .card15 {
     background: rgb(60, 30, 80);
   }
+  .card16 {
+    background: rgb(230, 30, 50);
+  }
+  .card17 {
+    background: rgb(13, 115, 236);
+  }
+  .card18 {
+    background: rgb(45, 70, 185);
+  }
 
   .offer_list-item img {
     position: absolute;
@@ -233,7 +246,8 @@
   }
   
   .artist-card {
-    background: #181818;
+    /* Original 181818 */
+    background: #005a4d;
     border-radius: 8px;
     -ms-flex: 1;
     flex: 1;
@@ -245,7 +259,8 @@
   }
   
   .artist-card:hover {
-    background-color: #252525;
+    /* Original 252525 */
+    background-color: #007566;
   }
   
   .card-img {
@@ -289,7 +304,7 @@
   }
   
   .artist-categorie {
-    color: #6a6a6a;
+    color: #b3b3b3;
     font-weight: 400;
     font-size: 0.875rem;
   }

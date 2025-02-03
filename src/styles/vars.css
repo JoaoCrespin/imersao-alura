@@ -4,9 +4,14 @@
     --font-dm-sans:"DM Sans", sans-serif;
 
     /* COLORS */
-    --bg-icon: #131313;
-    --bg-arrow-color: rgba(0,0,07);
-    /* Mudar para 004d40 e 00796b */
-    --bg-color: #121212;
-    --bg-lighter-color: #242424;
+    /* Originais 131313 e (0,0,07) */
+    --bg-icon: #003933;
+    --bg-arrow-color: rgba(0,77,64);
+    
+    /* Originais 121212 e 242424 */
+    --bg-color: #004d40;
+    --bg-lighter-color: #00796b;
+
+    /* Original */
+    --font-color: ;
 }
