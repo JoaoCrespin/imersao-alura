@@ -1,0 +1,6 @@
+@media screen and (max-width: 1015px) {
+    /* Até 1015 serão 2 colunas */
+    .offer_list-item {
+        grid-template-columns: 1fr 1fr;
+    }
+}
