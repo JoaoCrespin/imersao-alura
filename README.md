@@ -20,11 +20,11 @@ Este projeto utiliza o JSON Server para simular uma API de dados.
 
 
 ## Configuração
+### Inicie o JSON Server:
+Para que a funcionalidade de busca (search query) funcione corretamente, execute o seguinte comando:
 
- **Inicie o JSON Server**:
-
-    Para que a funcionalidade de busca (search query) funcione corretamente, execute o seguinte comando:
-
-    
-    json-server --watch api-artists/artists.json
-    
+```bash
+json-server --watch api-artists/artists.json
+```
+Nota Importante:
+a funcionalidade de busca (search query) descrita acima só funciona na versão do projeto sem o uso do React.
